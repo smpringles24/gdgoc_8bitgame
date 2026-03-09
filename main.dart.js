@@ -27440,7 +27440,7 @@ if(a.charCodeAt(s)!==47)return q
 return b+3},
 ZF(a,b,c,d){var s=0,r=A.H(t.a),q,p,o,n,m
 var $async$ZF=A.I(function(e,f){if(e===1)return A.E(f,r)
-for(;;)switch(s){case 0:p=A.cN("https://dev.gdgocinha.com/api/v1/game/rythm8beat/scores",0,null)
+for(;;)switch(s){case 0:p=A.cN("https://api.gdgocinha.com/api/v1/game/rythm8beat/scores",0,null)
 o=t.N
 n=A.as(["Content-Type","application/json"],o,o)
 s=3
@@ -27454,7 +27454,7 @@ return A.G($async$ZF,r)},
 ZE(a){var s=0,r=A.H(t.a),q,p,o
 var $async$ZE=A.I(function(b,c){if(b===1)return A.E(c,r)
 for(;;)switch(s){case 0:s=3
-return A.A(A.aFr(A.cN("https://dev.gdgocinha.com/api/v1/game/rythm8beat/ranking?phoneNumber="+a,0,null)),$async$ZE)
+return A.A(A.aFr(A.cN("https://api.gdgocinha.com/api/v1/game/rythm8beat/ranking?phoneNumber="+a,0,null)),$async$ZE)
 case 3:p=c
 o=t.a
 q=o.a(o.a(B.bv.HA(A.aFl(A.aEu(p.e)).f4(p.w),null)).i(0,"data"))
@@ -27465,7 +27465,7 @@ return A.G($async$ZE,r)},
 ZD(){var s=0,r=A.H(t.H)
 var $async$ZD=A.I(function(a,b){if(a===1)return A.E(b,r)
 for(;;)switch(s){case 0:s=2
-return A.A(A.aG2(A.cN("https://dev.gdgocinha.com/api/v1/game/rythm8beat/scores/all",0,null)),$async$ZD)
+return A.A(A.aG2(A.cN("https://api.gdgocinha.com/api/v1/game/rythm8beat/scores/all",0,null)),$async$ZD)
 case 2:return A.F(null,r)}})
 return A.G($async$ZD,r)},
 aP3(a){var s,r,q,p,o,n,m=B.Hx[a-1],l=A.c([],t.aU)
